@@ -11,9 +11,9 @@ output "rds_port" {
   value       = aws_db_instance.education.port
 }
 
-output "rds_username" {
-  description = "RDS instance root username"
+# output "rds_username" {
+  # description = "RDS instance root username"
   # value       = aws_db_instance.education.username
-  sensitive   = true
-}
+  # sensitive   = true
+# }
 
